@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adisyon Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/dinner.png" type="image/x-icon"/>
+</head>
+<body>
+    
+    <header>
+        <h1>Lezzetli Yemekler</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="http://localhost/garson-menu/"target="blank" >Menü</a></li>
+                <li><a href="http://localhost/garson-menu/"target="_blank" >Soft Sipariş</a></li>
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" placeholder="Yemek Ara..." />
+        <button type="submit">Ara</button>
+    </div>
+
+    <div class="hero">
+        <h1>Lezzetin Tek Adresi</h1>
+        <p>Lezzetli yemekler tek tık uzakta</p>
+        <a href="#" class="button">Yemekleri Keşfet</a>
+    </div>
+
+    <section class="promotion" id="menuler">
+        <h2>İndirimli Yemekler</h2>
+        <div class="menu-items">
+            <div class="menu-item" data-name="İskender">
+                <img src="img/iskender.jpg" alt="">
+                <h3>İskender</h3>
+                <p>Yoğurt ve Tereyağı ile soslanmış döner üzerine yapılmış bir yemek</p>
+                <span><del>200 TL</del>&nbsp; &nbsp;150 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Adana Kebap">
+                <img src="img/adana-kebap.jpg" alt="">
+                <h3>Adana Kebap</h3>
+                <p>İnce kıyılmış dana etiyle yapılan közlenmiş sebzelerle servis edilen güzel bir yemek</p>
+                <span><del>200 TL</del>&nbsp; &nbsp;150 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Lahmacun">
+                <img src="img/lahmacun.jpg" alt="">
+                <h3>Lahmacun</h3>
+                <p>İnce hamur üstüne dana kıyması ile yapılan muazzam bir yemek</p>
+                <span><del>200 TL</del>&nbsp; &nbsp;150 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="featured" id="masalar">
+        <h2>Popüler Yemekler</h2>
+
+        <div class="menu-items">
+            <div class="menu-item" data-name="İçli Köfte">
+                <img src="img/icli-kofte.jpg" alt="">
+                <h3>İçli Köfte</h3>
+                <p>Bulgurun içine kıyma konularak hazırlanan bir Lezzet.</p>
+                <span>50 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item" data-name="İmam Bayıldı">
+                <img src="img/imam-bayildi.jpg" alt="">
+                <h3>İmam Bayıldı</h3>
+                <p>Biber ve Domatesle doldurulmuş zeytinyağlı bir sebze yemeği.</p>
+                <span>100 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item" data-name="Karnıyarık">
+                <img src="img/karniyarik.jpg" alt="">
+                <h3>Karnıyarık</h3>
+                <p>Patlıcanın ortadan ikiye ayrılıp içine kıyma doldurulmasıyla yapılan müthiş bir yemek.</p>
+                <span>90 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item" data-name="Hamsili Pilav">
+                <img src="img/hamsili-pilav.jpg" alt="">
+                <h3>Hamsili Pilav</h3>
+                <p>Balıkların vazgeçilmezi pilavla buluşuyor</p>
+                <span>90 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item" data-name="İzmir Köfte">
+                <img src="img/izmir-kofte.jpg" alt="">
+                <h3>İzmir Köfte</h3>
+                <p>İzmirliler bile köfte diyorlar ismi değişmez</p>
+                <span>88 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Popüler</span>
+            </div>
+
+            <div class="menu-item" data-name="Kuru Köfte">
+                <img src="img/kuru-kofte.jpg" alt="">
+                <h3>Kuru Köfte</h3>
+                <p>Biz daha kurusunu yapana kadar en kuru köfte</p>
+                <span>50 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Popüler</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimizda">
+        <h2>Hakkımızda</h2>
+        <p>ALİsyon, 2023 yılında lezzet tutkunu bir ekip tarafından kurulan ve kısa sürede şehrin vazgeçilmez lezzet duraklarından biri haline gelen bir işletme olarak hizmet vermektedir.
+            Amacımız, misafirlerimize tadı damağında kalıcak yemekleri sunmak aynı zamanda unutumayacağı bir deneyim yaşatmaktır.</p>
+    </section>
+
+    <section class="menu">
+        <h2>Tüm Yemekler</h2>
+        <div class="menu-items">
+            <div class="menu-item" data-name="Kuru Fasulye">
+                <img src="img/kuru-fasulye.jpg" alt=""/>
+                <h3>Kuru Fasulye</h3>
+                <p>Kuru fasulyenin haşlanarak pişirilmesiyle oluşturulan bir yemek.</p>
+                <span>70 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+                <span class="tag">Gazlı!!</span>
+            </div>
+
+            <div class="menu-item" data-name="Beyran Çorbası">
+                <img src="img/beyran-corbasi.jpg" alt=""/>
+                <h3>Beyran Çorbası</h3>
+                <p>Etli bir Çorba</p>
+                <span>75 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Pide">
+                <img src="img/pide.jpg" alt=""/>
+                <h3>Pide</h3>
+                <p>Hamurlu bir yemek</p>
+                <span>40 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Bulgur Pilavı">
+                <img src="img/bulgur-pilavi.jpg" alt=""/>
+                <h3>Bulgur Pilavı</h3>
+                <p>Yanında olmazsa olmaz soğan ve ayranı ile yenilen bir pilav</p>
+                <span>65 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Karnabahar Etli">
+                <img src="img/etli-karnabahar.jpg" alt=""/>
+                <h3>Karnabahar Etli</h3>
+                <p>Hem vejeteryan hem et ikisi bir arada</p>
+                <span>80 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Etli Nohut">
+                <img src="img/etli-nohut.jpg" alt=""/>
+                <h3>Etli Nohut</h3>
+                <p>Fasulyenin kardeşi sayılır</p>
+                <span>65 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Etli Yaprak Sarma">
+                <img src="img/etli-yaprak-sarma.jpg" alt=""/>
+                <h3>Etli Yaprak Sarma</h3>
+                <p>Vazgeçilmez bol limonlu etli muazzam bir yemek</p>
+                <span>75 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Fırında Patates">
+                <img src="img/firinda-patates.jpg" alt=""/>
+                <h3>Fırında Patates</h3>
+                <p>Her haliyle güzel olan patates bu sefer fırında</p>
+                <span>65 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Mantı">
+                <img src="img/manti.jpg" alt=""/>
+                <h3>Mantı</h3>
+                <p>Kayserilerin vazgeçilmez yemeği gururla sunulur</p>
+                <span>130 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Mevsim Salata">
+                <img src="img/mevsim-salata.jpg" alt=""/>
+                <h3>Mevsim Salata</h3>
+                <p>Fazla aç değilim diyenlere efsane mevsim salatamız</p>
+                <span>55 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+
+            <div class="menu-item" data-name="Tavuklu Pilav">
+                <img src="img/tavuklu-pilav.jpg" alt=""/>
+                <h3>Tavuklu Pilav</h3>
+                <p>Ketçap mayonez yakışır tavsiyemdir</p>
+                <span>65 TL</span>
+                <button class="order-button">Sipariş Ver</button>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p>İletişim bilgileri:</p>
+        <ul>
+            <li>Telefon: 538 697 98 08</li>
+            <li>Email: Doganmuhammedali099@gmail.com</li>
+            <li>Adres: Lezzetli Sokak No:3, Yemek Diyarı</li>
+        </ul>
+    </section>
+    
+    <footer>© 2024 MudoCafe & ALİsyon. Tüm hakları saklıdır.</footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.querySelector('.search-container input');
+            const menuItems = document.querySelectorAll('.menu-item');
+
+            searchInput.addEventListener('input', function() {
+                const searchQuery = searchInput.value.toLowerCase();
+
+                menuItems.forEach(item => {
+                    const itemName = item.getAttribute('data-name').toLowerCase();
+                    if (itemName.includes(searchQuery)) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+     <!-- Yukarı Çık Butonu -->
+     <button onclick="topFunction()" id="topBtn" title="Yukarı Çık">↑</button>
+
+     <script>
+         // Buton elementi
+         const topBtn = document.getElementById("topBtn");
+ 
+         // Kullanıcı sayfada aşağı kaydırdığında butonu göster
+         window.onscroll = function() {
+             scrollFunction();
+         };
+ 
+         function scrollFunction() {
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 topBtn.style.display = "block";
+             } else {
+                 topBtn.style.display = "none";
+             }
+         }
+ 
+         // Butona tıklandığında sayfanın en üstüne kaydır
+         function topFunction() {
+             document.body.scrollTop = 0; // Safari
+             document.documentElement.scrollTop = 0; // Diğer tarayıcılar
+         }
+     </script>
+</body>
+</html>
